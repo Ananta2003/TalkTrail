@@ -22,7 +22,7 @@ export default function Login() {
         })
         localStorage.setItem("token", res.data.token);
         console.log(res)
-        navigate('/dashboard')
+        navigate('/')
     }
 
     return (

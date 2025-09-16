@@ -24,7 +24,7 @@ export default function UserSignup() {
             name: name, email: email, password: password
         })
         console.log(data)
-        navigate("/dashboard")
+        navigate("/")
     }
 
     return (

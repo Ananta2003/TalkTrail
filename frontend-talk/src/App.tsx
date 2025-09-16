@@ -21,7 +21,7 @@ function App() {
     <GoogleOAuthProvider clientId={CLIENT_ID}>
       <BrowserRouter>
         <Routes>
-          <Route path='/dashboard' element={<Dashboard />} />
+          <Route path='/' element={<Dashboard />} />
           <Route path='/login' element={<Login />} />
           <Route path='/userlogin' element={<UserLogin/>} />
           <Route path='/admin' element={<ListEvent/>} />

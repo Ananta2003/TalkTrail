@@ -35,7 +35,7 @@ export default function AdminBody() {
 
             }, { headers: { Authorization: `Bearer ${token}` } })
             console.log(dataref)
-            navigate('/dashboard')
+            navigate('/')
             alert("Event Added")
 
 
